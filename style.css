@@ -1,0 +1,21 @@
+* {box-sizing: border-box;}
+body{
+    background-color: bisque;
+}
+.img-magnifier-contain {
+  position:relative;
+  width: 25%;
+}
+
+#myimage {
+    width: 50%;
+}
+.img-magnifier-glass {
+  position: absolute;
+  border: 3px solid #ec5d33;
+  background-color: #fff;
+  cursor: none;
+  /*Set the size of the magnifier glass:*/
+  width: 150px;
+  height: 150px;
+}
